@@ -1,0 +1,40 @@
+p.clipped, p.ellipses{
+    width: 900px;
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #f2f2f2;
+}
+
+
+p.clipped{
+    text-overflow: clip;
+}
+
+
+p.ellipses{
+    text-overflow: ellipsis;
+}
+
+
+p.overflow1{
+    width: 200px;
+    padding: 10px;
+    word-wrap: break-word;
+    background: #3a9e3f;
+}
+
+p.line1{
+    width: 150px;
+    padding: 10px;
+    word-wrap: break-word;
+    background: #c5a22d;
+}
+
+
+p.line2{
+    width: 150px;
+    padding: 10px;
+    word-wrap: keep-all;
+    background: #138585;
+}
